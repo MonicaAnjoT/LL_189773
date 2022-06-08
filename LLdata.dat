@@ -1,0 +1,15 @@
+3        !Z=Number of blades
+1.0 0.15 !R=exterior radius of helix; HUBRAD=Hub Radius
+5.0      !COEFAV=TSR
+20       !M=number of Lifting Line elements
+0        !GLLD=integer parameter controlling Lifting Line: 0 - Cosine distribution; 1 - Other distribution (not defined)
+0        !GCOEF=integer parameter determining the coefficient used (CT or CP): 0- Thrust loading coefficient. 1 - Power loading coefficient
+0.78     !COEF0=Value of Thrut coefficient or power coefficient
+0.000500 !COEFRACY=accuracy on iterated CT (or CP) results
+1        !GFUNCT=integer parameter determining the design function (circulation or pitch)
+2        !FORMF parameter determining the way pitch function PITCH is read
+1        !F(k) with K=1	optimum helix
+1        !GBETA=integer parameter controlling the way pitch angle BETA is determined (trailling vortex model): 0- Linear theory (not defined); 1- Moderately Loaded theory; 2- Greeley & Kerwin(1982) method
+1        !GMIV {0|1} integer parameter controlling the method used to determine the Induced Velocities --> 0-Numeric method; 1 - Induced Factors method
+1        !GSOLV=integer parameter controlling the method used to solve the system of equations: 0- Iterative method Bi-CGStab; 1- Direct method
+1        !IHuB=1 - hub images. IHUB=0, no hub images
